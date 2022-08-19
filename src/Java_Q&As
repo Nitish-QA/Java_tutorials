@@ -1,0 +1,24 @@
+Q. What happens if String args[] is not written in main() method?
+Ans: code will compile but JVM cannot not recognize the main() method as a method from where it should start the execution
+JVM always looks for main() method with string type array as parameter.
+
+Q. What is the difference between print() and println() methods?
+>> print() methods keeps the cursor on the same line after execution
+>> println() methods moves the cursor to the next line after execution in output
+
+
+Q. \n and \t
+
+Q. Difference between float and double
+>> float can represent upto to 7 digits after decimal point
+>> double can represent upto 15 digits after decimal point
+
+Q. Explain ternary operator (?:)
+>>  a=2
+	b=3
+	max = (a>b) ? a:b;  -- this means if 
+	syso("max number is" +max);
+	
+	output: max number is 3
+--Here 
+	
