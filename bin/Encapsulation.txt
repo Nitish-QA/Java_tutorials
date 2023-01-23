@@ -1,0 +1,7 @@
+ENCAPSULATION(private variables and public methods):
+- is a mechanism to of binding variables and methods together.
+- generally the variables inside a class are declared 'private'. This means it cannot be accessed outside the class.
+- Now to access those variables, action methods created inside that class are declared 'public'. 
+So that public methods can be accessed outside the class
+- There is no other way of interacting with the variables. So the outsiders cannot know , 
+what variables are declared inside the class and what code written inside methods.

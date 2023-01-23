@@ -13,6 +13,7 @@ public class stringbuffer {
 		//Declaration 
 		StringBuffer sb = new StringBuffer("Hello");
 		System.out.println(sb);
+		
 		//Declaration
 		StringBuffer sb2 = new StringBuffer();
 		sb2.append("Hello");

@@ -22,7 +22,7 @@ public class stringTokenizer {
 		//use String tokenizer to split input at commas
 		StringTokenizer st = new StringTokenizer(str, ",");
 		 
-		//we have3 tokens as String
+		//we have 3 tokens as String
 		String s1 = st.nextToken();
 		String s2 = st.nextToken();
 		String s3 = st.nextToken();
