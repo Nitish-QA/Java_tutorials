@@ -17,7 +17,7 @@ public class Rough {
 			String st = sc.nextLine();
 			 System.out.println(" You have typed= " +st);
 	
-			
+		
 			
 	}
 }
