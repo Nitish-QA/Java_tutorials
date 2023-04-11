@@ -23,12 +23,8 @@ public class PrintFibonacciSeries {
 		/*
 		 * int a = 0; int b = 1; int c;
 		 * 
-		 * for (int i = 2; i < n; i++) { 
-		 * c = a + b; 
-		 * System.out.print(" " + c); 
-		 * a = b; 
-		 * b = c; 
-		 * }
+		 * for (int i = 2; i < n; i++) { c = a + b; System.out.print(" " + c); a = b; b
+		 * = c; }
 		 */
 
 		// ANOTHER WAY, but this time print the first 100 Fibonacci numbers:
@@ -48,6 +44,21 @@ public class PrintFibonacciSeries {
 			}
 			System.out.print(fbnchi[i] + " ");
 		}
+
+		// MY WAY for the above
+		/*
+		 * Scanner sc = new Scanner(System.in);
+		 * 
+		 * System.out.
+		 * println("Enter length till which fibbonacci series is required: \n");
+		 * 
+		 * int size = sc.nextInt();
+		 * 
+		 * int a = 0; int b = 1; int c; for (int i = 2; i <= size-1; i++) { c = a + b;
+		 * if(a + b == c && c<size) {
+		 * 
+		 * System.out.print(c+" "); a = b; b = c; }
+		 */
 
 	}
 
