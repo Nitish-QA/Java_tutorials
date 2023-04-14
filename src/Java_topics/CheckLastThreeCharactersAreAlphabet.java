@@ -20,7 +20,7 @@ public class CheckLastThreeCharactersAreAlphabet {
 		//System.out.println(str.length() - 1);
 
 		for (int i = str.length() - 1; i >= 0; i--) {
-			if (!(Character.isAlphabetic(str.charAt(i))) && (str.length() - 1) - i <= 3) {
+			if (!(Character.isAlphabetic(str.charAt(i))) && str.length() - i <= 3) {
 				strb.append(str.charAt(i));
 			}
 		}
