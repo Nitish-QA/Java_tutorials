@@ -4,6 +4,7 @@ public class CharacterMethodsAll {
 	
 	public static void main(String[] args) {
         char c = 'A';
+        char ch = 'B';
 
         // isLetter() method
         System.out.println("isLetter() method:");
@@ -32,6 +33,14 @@ public class CharacterMethodsAll {
         // getNumericValue() method
         System.out.println("getNumericValue() method:");
         System.out.println(Character.getNumericValue(c)); // Output: 10 (assuming c is '\n')
-    }
+        
+        // isAlphabetValue() method
+        System.out.println("isAlphabetValue() method:");
+        System.out.println(Character.isAlphabetic(c)); // Output: true
+        
+        // Compare method
+        System.out.println("Compare method:");
+        System.out.println(Character.compare(c, ch)); // Output: -1
+	}
 
 }

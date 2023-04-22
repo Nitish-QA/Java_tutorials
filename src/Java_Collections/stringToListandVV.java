@@ -7,6 +7,11 @@ public class stringToListandVV {
 
 	public static void main(String[] args) {
 		String str = "apple,banana,cherry";
+		
+		String st = "Nitish";
+		String arr[] = st.split("");
+		String strr = String.join("", arr);
+		System.out.println(strr);
 
 		// convert the string to a list
 		List<String> list = Arrays.asList(str.split(","));

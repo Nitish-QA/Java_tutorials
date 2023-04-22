@@ -1,0 +1,25 @@
+Stream: is for transporting data from one place to another
+Two Types:
+Input Stream and Output Stream
+
+Input Stream: To read data
+Output Stream: To write data
+
+To read data we need to connect keyboard to the input stream. e.g:
+
+Scanner sc  = new Scanner(System.in)
+--here "System.in" represents the keyboard
+
+System.in: represents InputStream. Default is keyboard
+System.out: represents PrintStream object. Default is monitor
+System.err: represents same PrintStream object. But is used to display any error messages in the program.
+
+Byte Stream: are used to handle any characters(text), images, audio and video files
+--any class ends with the name Stream represents Byte stream. e.g:
+FileInputStream
+BufferedInputStream
+
+text Stream: are used to handle dat in the form of character(or text) only.
+BufferedReader
+InputStreamReader
+
