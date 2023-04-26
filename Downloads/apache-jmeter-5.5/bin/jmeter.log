@@ -1,0 +1,22 @@
+2023-04-22 12:22:35,701 INFO o.a.j.u.JMeterUtils: Setting Locale to en_IN
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: Version 5.5
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: java.version=1.8.0_202
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: os.name=Windows 10
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: os.arch=amd64
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: os.version=10.0
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: java.awt.headless=null
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: Max memory     =3795845120
+2023-04-22 12:22:35,717 INFO o.a.j.JMeter: Available Processors =8
+2023-04-22 12:22:35,736 INFO o.a.j.JMeter: Default Locale=English (India)
+2023-04-22 12:22:35,736 INFO o.a.j.JMeter: JMeter  Locale=English (India)
+2023-04-22 12:22:35,736 INFO o.a.j.JMeter: JMeterHome=C:\Users\NitishKaushal\Downloads\apache-jmeter-5.5
+2023-04-22 12:22:35,737 INFO o.a.j.JMeter: user.dir  =C:\Users\NitishKaushal\Downloads\apache-jmeter-5.5\bin
+2023-04-22 12:22:35,737 INFO o.a.j.JMeter: PWD       =C:\Users\NitishKaushal\Downloads\apache-jmeter-5.5\bin
+2023-04-22 12:22:35,738 INFO o.a.j.JMeter: IP: 192.168.0.102 Name: L-10-NitKau FullName: L-10-NitKau
+2023-04-22 12:22:35,754 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-04-22 12:22:35,895 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
