@@ -10,7 +10,7 @@ public class CountCharsInString {
 
 	public static void getCharCount(String st) {
 
-		Map<Character, Integer> charMap = new HashMap<Character, Integer>();
+		Map<Character, Integer> charMap = new HashMap<Character, Integer>(); 
 
 		char strArray[] = st.toLowerCase().toCharArray();
 

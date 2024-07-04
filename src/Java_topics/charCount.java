@@ -7,7 +7,7 @@ public class charCount {
 		
 		String st  = "Selenium";
         for(int i=0; i<=st.length(); i++){
-        	char ch[] = new char[st.length()];
+        	char ch[] = new char[st.length()]; 
         	st.toCharArray();
          //  for(char ch[]: ch )
            

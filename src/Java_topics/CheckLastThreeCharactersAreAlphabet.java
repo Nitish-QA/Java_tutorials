@@ -9,7 +9,7 @@ public class CheckLastThreeCharactersAreAlphabet {
 	// if not print last three are alphabets
 
 	public static void main(String[] args) {
-		
+		 
 		Scanner sc = new Scanner(System.in);
 
 		StringBuilder strb = new StringBuilder();

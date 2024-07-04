@@ -9,7 +9,7 @@ public class ReverseSentence {
 
 		ReverseSentence rs = new ReverseSentence();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Write a sentence: \n");
+		System.out.println("Write a sentence: \n"); 
 
 		String st = sc.nextLine().toLowerCase();
 		printReverse(st);

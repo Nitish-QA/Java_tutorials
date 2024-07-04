@@ -10,7 +10,7 @@ public class datatype_typecasting {
 	 * Implicit typecasting (widening): happens when a value of a smaller data type
 	 * is converted to a larger data type.
 	 * 
-	 * Explicit typecasting (narrowing): happens when a value of a larger data type
+	 * Explicit typecasting (narrowing): happens when a value of a larger data type 
 	 * is converted to a smaller data type. For example, when a double value is
 	 * assigned to an int variable. In this case, the programmer needs to use the
 	 * cast operator (type) to perform the typecasting.

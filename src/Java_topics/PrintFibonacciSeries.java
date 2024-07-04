@@ -9,7 +9,7 @@ public class PrintFibonacciSeries {
 
 		/*
 		 * Fibonacci sequence is a sequence in which each number is the sum of the two
-		 * preceding ones. starts with a zero, followed by a one, then by another one,
+		 * preceding ones. starts with a zero, followed by a one, then by another one, 
 		 * and then by a series of steadily increasing numbers. 0, 1, 1, 2, 3, 5, 8, 13,
 		 * 21, 34, 55 Formula: Fn = Fn-1 + Fn-2, where n > 1.
 		 */

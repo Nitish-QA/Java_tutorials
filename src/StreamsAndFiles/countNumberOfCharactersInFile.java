@@ -11,7 +11,7 @@ public class countNumberOfCharactersInFile {
 			FileReader reader = new FileReader("myfile.txt");
 			BufferedReader bufferedReader = new BufferedReader(reader);
 
-			int character;
+			int character; 
 			int count = 0;
 
 			while ((character = bufferedReader.read()) != -1) {

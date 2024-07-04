@@ -2,16 +2,14 @@ package StreamsAndFiles;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class searchString_lineNum_position_replace {
 
-	public static void main(String[] args) throws IOException {
+ 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Enter string to find");

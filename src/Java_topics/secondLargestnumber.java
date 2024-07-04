@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class secondLargestnumber {
-
+ 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

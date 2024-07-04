@@ -8,7 +8,7 @@ public class classTypecasting {
 	    }
 	
 
-	class Dog extends classTypecasting {
+	class Dog extends classTypecasting { 
 	    public void makeSound() {
 	        System.out.println("Dog is barking");
 	    }
