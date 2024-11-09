@@ -114,6 +114,8 @@ public class Rough2 {
 
 		List<Integer> common = list16.stream().filter(list17 :: contains).collect(Collectors.toList());
 		System.out.println(common);
+
+		
 		
 
 
