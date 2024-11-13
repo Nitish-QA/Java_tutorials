@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.OptionalDouble;
 import java.util.function.Function;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -171,6 +172,50 @@ public class UsefulCodes {
         String str9 = "hello world";
         System.out.println(str9.indexOf('r'));
 
-    }
-    
+        // Find the maximum Strength by length
+        List<String> list29 = Arrays.asList("apple", "banana", "cherry");
+        String str10 = list29.stream().max(Comparator.comparingInt(String :: length)).orElse(null);
+        System.out.println(str10);
+
+        // Reverse a List
+        List<Integer> list30 = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> list31 = list30.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+        System.out.println(list31);
+
+        // Find the Sum of Elements in a List
+        List<Integer> list32 = Arrays.asList(1, 2, 3, 4, 5);
+        int num4 = list32.stream().mapToInt(Integer::intValue).sum();
+        System.out.println(num4);
+
+        
+        // Ways to filter and print even numbers
+        List<Integer> list33 = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> evennum = list33.stream().filter(num -> num%2 == 0).collect(Collectors.toList());
+        System.out.println(evennum);
+        //OR print directly
+        list33.stream().filter(num -> num%2 ==0).forEach(nm -> System.out.println(nm)); 
+        //OR other way to write
+        list33.stream().filter(num -> num%2 == 0).forEach(System.out :: println);
+
+        // Filter and print names with length greater then 5 and less than 8
+        List<String> list34 = Arrays.asList("apple", "banana", "cherry", "mango", "pomegranate");
+        list34.stream().filter(fruit -> fruit.length() > 5 && fruit.length() < 8 ).forEach(System.out :: println);
+
+        // convert all names to upppercase and print
+        List<String> list35 = Arrays.asList("apple", "banana", "cherry", "mango", "pomegranate");
+        list35.stream().map(name -> name.toUpperCase()).forEach(System.out:: println);
+
+        //get size of all elements and print
+        List<String> list36 = Arrays.asList("apple", "banana", "cherry", "mango", "pomegranate");
+        list36.stream().map(num -> num.length()).forEach(System.out::println);
+
+        
+
+
+
+
+        
+        
+        
+    } 
 }
